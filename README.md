@@ -194,3 +194,18 @@ Intro Cloud monitoring
 https://cloud.google.com/monitoring/dashboards
 </details>
 
+### Theorical Question 15
+
+Cloud Monitoring Samples
+
+<details><summary><b>Answer</b></summary>
+
+https://cloud.google.com/monitoring/docs/samples
+
+https://cloud.google.com/docs/samples
+
+</details>
+
+<details><summary><b>Source</b></summary>
+https://cloud.google.com/monitoring/dashboards
+</details>
