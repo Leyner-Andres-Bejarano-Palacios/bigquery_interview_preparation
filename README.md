@@ -178,3 +178,19 @@ Data lineage is a Dataplex feature that lets you track how data moves through yo
 https://cloud.google.com/bigquery/docs/managing-tables#sql_1
 </details>
 
+### Theorical Question 14
+
+Intro Cloud monitoring
+
+<details><summary><b>Answer</b></summary>
+
+![Image](img/cloudMonitoring.png "cloudMonitoring") 
+
+![Image](img/introCloudMonitoringPerformance.png "introCloudMonitoringPerformance") 
+
+</details>
+
+<details><summary><b>Source</b></summary>
+https://cloud.google.com/monitoring/dashboards
+</details>
+
