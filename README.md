@@ -135,3 +135,46 @@ Clustering
 <details><summary><b>Source</b></summary>
 https://cloud.google.com/bigquery/docs/storage_overview
 </details>
+
+### Theorical Question 11
+
+Intro Optimization
+
+<details><summary><b>Answer</b></summary>
+
+![Image](img/IntroQueryPlan.png "IntroQueryPlan")
+
+</details>
+
+<details><summary><b>Source</b></summary>
+https://cloud.google.com/bigquery/docs/storage_overview
+</details>
+
+### Theorical Question 12
+
+Table Expiration day
+
+<details><summary><b>Answer</b></summary>
+
+![Image](img/tableExpiration.png "tableExpiration")
+
+</details>
+
+<details><summary><b>Source</b></summary>
+https://cloud.google.com/bigquery/docs/managing-tables#sql_1
+</details>
+
+### Theorical Question 13
+
+Data lineage and whad tool to use
+
+<details><summary><b>Answer</b></summary>
+
+Data lineage is a Dataplex feature that lets you track how data moves through your systems: where it comes from, where it is passed to, and what transformations are applied to it. 
+
+</details>
+
+<details><summary><b>Source</b></summary>
+https://cloud.google.com/bigquery/docs/managing-tables#sql_1
+</details>
+
