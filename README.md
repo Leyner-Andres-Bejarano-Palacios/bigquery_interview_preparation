@@ -65,3 +65,73 @@ BI Engine accelerates SQL queries by caching BigQuery data in memory. The amount
 https://cloud.google.com/bigquery/pricing#storage
 </details>
 
+### Theorical Question 6
+
+Do you know what table clone
+
+<details><summary><b>Answer</b></summary>
+Table clones are lightweight, writable copies of standard tables. BigQuery only stores the delta between a table clone and its base table.
+</details>
+
+<details><summary><b>Source</b></summary>
+https://cloud.google.com/bigquery/docs/storage_overview
+</details>
+
+
+### Theorical Question 7
+
+Do you know what table snapshot
+
+<details><summary><b>Answer</b></summary>
+Table snapshots are point-in-time copies of tables. Table snapshots are read-only, but you can restore a table from a table snapshot. BigQuery only stores the delta between a table snapshot and its base table.
+</details>
+
+<details><summary><b>Source</b></summary>
+https://cloud.google.com/bigquery/docs/storage_overview
+</details>
+
+
+### Theorical Question 8
+
+Do you know what Materialized views
+
+<details><summary><b>Answer</b></summary>
+Table snapshots are point-in-time copies of tables. Table snapshots are read-only, but you can restore a table from a table snapshot. BigQuery only stores the delta between a table snapshot and its base table.
+</details>
+
+<details><summary><b>Source</b></summary>
+https://cloud.google.com/bigquery/docs/storage_overview
+</details>
+
+### Theorical Question 9
+
+What data type can you use as partition key
+
+<details><summary><b>Answer</b></summary>
+A time-unit column, such as a DATE or DATETIME column.
+
+An integer column
+
+The time when the data was ingested. In this case, BigQuery automatically stores the ingestion time in a pseudo-column that is not part of the table schema.
+</details>
+
+<details><summary><b>Source</b></summary>
+https://cloud.google.com/bigquery/docs/storage_overview
+</details>
+
+
+### Theorical Question 10
+
+Clustering
+
+<details><summary><b>Answer</b></summary>
+
+![Image](img/clusteringBigQuery.png "clusteringBigQuery")
+
+![Image](img/clusteringBigQuery_part2.png "clusteringBigQuery_part2")
+
+</details>
+
+<details><summary><b>Source</b></summary>
+https://cloud.google.com/bigquery/docs/storage_overview
+</details>
