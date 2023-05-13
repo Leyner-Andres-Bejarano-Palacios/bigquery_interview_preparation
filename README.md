@@ -209,3 +209,31 @@ https://cloud.google.com/docs/samples
 <details><summary><b>Source</b></summary>
 https://cloud.google.com/monitoring/dashboards
 </details>
+
+### Theorical Question 16
+
+Here you are monitoring how many products you are checking with cloud monitoringCloud Monitoring Samples
+
+<details><summary><b>Answer</b></summary>
+
+![Image](img/projectsByMonitoring.png "projectsByMonitoring") 
+
+</details>
+
+<details><summary><b>Source</b></summary>
+https://www.youtube.com/watch?v=_FKdug6B5FM
+</details>
+
+### Theorical Question 17
+
+Cloud logging
+
+<details><summary><b>Answer</b></summary>
+
+![Image](img/cloudLogging.png "cloudLogging") 
+
+</details>
+
+<details><summary><b>Source</b></summary>
+https://www.youtube.com/watch?v=IlUCyV8mcS0
+</details>
