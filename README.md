@@ -260,3 +260,58 @@ If you want to execute some action and see the result in real time there is a st
 <details><summary><b>Source</b></summary>
 https://cloud.google.com/bigquery/docs/datasets
 </details>
+
+### Theorical Question 19
+
+Difference between views and materialized views
+
+<details><summary><b>Answer</b></summary>
+
+If you want to execute some action and see the result in real time there is a streaming log options that can show that streaming in the cloud logging service UI or in console using gcloud
+
+![Image](img/phisycalLogicalBillingBiquery.png "phisycalLogicalBillingBiquery") 
+
+![Image](img/physicalLogicalBigquery_part2.png "physicalLogicalBigquery_part2") 
+
+</details>
+
+<details><summary><b>Source</b></summary>
+https://cloud.google.com/bigquery/docs/datasets
+</details>
+
+### Theorical Question 20
+
+Access control tables
+
+<details><summary><b>Answer</b></summary> 
+
+![Image](img/AccescontrolToTables.png "AccescontrolToTables") 
+
+</details>
+
+<details><summary><b>Source</b></summary>
+https://cloud.google.com/bigquery/docs/datasets
+</details>
+
+
+### Theorical Question 21
+
+Partitioning by integerm datetime and ingestion date
+
+<details><summary><b>Answer</b></summary>
+
+![Image](img/timeUnitPartitioning.png "timeUnitPartitioning") 
+
+![Image](img/integerPartitioning.png "integerPartitioning") 
+
+![Image](img/ingestionDatePartitioningPart1.png "ingestionDatePartitioningPart1") 
+
+![Image](img/ingestionDatePartitioningPart2.png "ingestionDatePartitioningPart2") 
+
+</details>
+
+<details><summary><b>Source</b></summary>
+https://cloud.google.com/bigquery/docs/datasets
+</details>
+
+
