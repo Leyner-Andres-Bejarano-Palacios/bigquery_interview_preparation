@@ -230,10 +230,33 @@ Cloud logging
 
 <details><summary><b>Answer</b></summary>
 
+If you want to execute some action and see the result in real time there is a streaming log options that can show that streaming in the cloud logging service UI or in console using gcloud
+
 ![Image](img/cloudLogging.png "cloudLogging") 
 
 </details>
 
 <details><summary><b>Source</b></summary>
 https://www.youtube.com/watch?v=IlUCyV8mcS0
+</details>
+
+
+
+
+### Theorical Question 18
+
+In biquery datasets what does it mean logical and phisical billing
+
+<details><summary><b>Answer</b></summary>
+
+If you want to execute some action and see the result in real time there is a streaming log options that can show that streaming in the cloud logging service UI or in console using gcloud
+
+![Image](img/phisycalLogicalBillingBiquery.png "phisycalLogicalBillingBiquery") 
+
+![Image](img/physicalLogicalBigquery_part2.png "physicalLogicalBigquery_part2") 
+
+</details>
+
+<details><summary><b>Source</b></summary>
+https://cloud.google.com/bigquery/docs/datasets
 </details>
