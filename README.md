@@ -366,4 +366,45 @@ When you query a clustered table, you do not receive an accurate query cost esti
 https://cloud.google.com/bigquery/docs/clustered-tables
 </details>
 
+### Theorical Question 25
+
+how should you query a clustered table
+<details><summary><b>Answer</b></summary>
+
+To optimize performance when you run queries against clustered tables, use an expression that filters on a clustered column or on multiple clustered columns in the order the clustered columns are specified. Queries that filter on clustered columns generally perform better than queries that filter only on non-clustered columns.
+
+</details>
+
+<details><summary><b>Source</b></summary>
+https://cloud.google.com/bigquery/docs/querying-clustered-tables
+</details>
+
+
+### Theorical Question 26
+
+Do you understand the difference between biglake table and external table ???? or why you should upgrade external table to biglake
+<details><summary><b>Answer</b></summary>
+
+BigLake tables let you query structured data in external data stores with access delegation. Access delegation decouples access to the BigLake table from access to the underlying data store. An external connection associated with a service account is used to connect to the data store. Because the service account handles retrieving data from the data store, you only have to grant users access to the BigLake table. This lets you enforce fine-grained security at the table level, including row-level and column-level security. For BigLake tables based on Cloud Storage, you can also use dynamic data masking. To learn more about multi-cloud analytic solutions using BigLake tables with Amazon S3 or Blob Storage data, see BigQuery Omni.
+
+</details>
+
+<details><summary><b>Source</b></summary>
+https://cloud.google.com/bigquery/docs/biglake-intro
+</details>
+
+### Theorical Question 27
+
+when should you use metada caching with biglake tables
+<details><summary><b>Answer</b></summary>
+
+Materialized views over BigLake metadata cache-enabled tables can be used to improve performance and efficiency when querying structured data stored in Cloud Storage. These materialized views function like materialized views over BigQuery-managed storage tables, including the benefits of automatic refresh and smart tuning.
+
+BigLake and object tables support caching metadata about files from Cloud Storage. The metadata includes file names, partitioning information, and physical metadata from files such as row counts. You can choose whether or not to enable metadata caching on a table. Queries with a large number of files and with Hive partition filters benefit the most from metadata caching.
+
+</details>
+
+<details><summary><b>Source</b></summary>
+https://cloud.google.com/bigquery/docs/biglake-intro
+</details>
 
