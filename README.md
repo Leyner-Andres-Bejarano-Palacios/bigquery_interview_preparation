@@ -327,7 +327,6 @@ By the way, I think you should analize if this is actually prunning data using t
 ![Image](img/notPrunning.png "notPrunning") 
 
 ![Image](img/constantInWhereClause.png "constantInWhereClause") 
-
  
 
 </details>
@@ -335,4 +334,36 @@ By the way, I think you should analize if this is actually prunning data using t
 <details><summary><b>Source</b></summary>
 https://cloud.google.com/bigquery/docs/datasets
 </details>
+
+
+
+### Theorical Question 23
+
+why should you beware of dry-run and query cost when dealing with clustered tables
+
+<details><summary><b>Answer</b></summary>
+
+When you query a clustered table, you do not receive an accurate query cost estimate before query execution because the number of storage blocks to be scanned is not known before query execution. The final cost is determined after query execution is complete and is based on the specific storage blocks that were scanned.
+
+</details>
+
+<details><summary><b>Source</b></summary>
+https://cloud.google.com/bigquery/docs/clustered-tables
+</details>
+
+
+### Theorical Question 24
+
+When to use clustering (reads the rest of the page and the videos about performance)
+
+<details><summary><b>Answer</b></summary>
+
+When you query a clustered table, you do not receive an accurate query cost estimate before query execution because the number of storage blocks to be scanned is not known before query execution. The final cost is determined after query execution is complete and is based on the specific storage blocks that were scanned.
+
+</details>
+
+<details><summary><b>Source</b></summary>
+https://cloud.google.com/bigquery/docs/clustered-tables
+</details>
+
 
