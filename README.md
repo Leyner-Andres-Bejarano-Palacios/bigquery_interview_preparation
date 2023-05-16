@@ -315,3 +315,24 @@ https://cloud.google.com/bigquery/docs/datasets
 </details>
 
 
+### Theorical Question 22
+
+When is prunning (using only the require partitions) not executed.
+In other words when will it scan the whole table even of you use the where clause.
+
+By the way, I think you should analize if this is actually prunning data using the query plan.
+
+<details><summary><b>Answer</b></summary>
+
+![Image](img/notPrunning.png "notPrunning") 
+
+![Image](img/constantInWhereClause.png "constantInWhereClause") 
+
+ 
+
+</details>
+
+<details><summary><b>Source</b></summary>
+https://cloud.google.com/bigquery/docs/datasets
+</details>
+
