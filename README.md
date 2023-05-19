@@ -408,3 +408,39 @@ BigLake and object tables support caching metadata about files from Cloud Storag
 https://cloud.google.com/bigquery/docs/biglake-intro
 </details>
 
+### Theorical Question 28
+
+Do yoou know what a view is in bigquery
+
+<details><summary><b>Answer</b></summary>
+
+A view is a virtual table defined by a SQL query. You can use views to provide an easily reusable name for a complex query or a limited set of data that you can then authorize other users to access. Once you create a view, a user can then query the view as they would a table. Query results contain only the data from the tables and fields specified in the query that defines the view.
+
+The query that defines the view is run each time the view is queried. If you frequently query a large or computationally expensive view, then you should consider creating a materialized view.
+
+</details>
+
+<details><summary><b>Source</b></summary>
+https://cloud.google.com/bigquery/docs/views-intro
+</details>
+
+
+### Theorical Question 29
+
+Do yoou know what a materialized view is in bigquery
+
+<details><summary><b>Answer</b></summary>
+
+In BigQuery, materialized views are precomputed views that periodically cache the results of a query for increased performance and efficiency. BigQuery leverages precomputed results from materialized views and whenever possible reads only delta changes from the base tables to compute up-to-date results. Materialized views can be queried directly or can be used by the BigQuery optimizer to process queries to the base tables.
+
+Queries that use materialized views are generally faster and consume fewer resources than queries that retrieve the same data only from the base tables. Materialized views can significantly improve the performance of workloads that have the characteristic of common and repeated queries.
+
+</details>
+
+<details><summary><b>Source</b></summary>
+https://cloud.google.com/bigquery/docs/materialized-views-intro
+</details>
+
+
+
+
